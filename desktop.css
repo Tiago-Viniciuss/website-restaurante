@@ -11,65 +11,82 @@ body {
 }
 
 header {
-    background-color: #939292;
+    background-color: rgba(0, 0, 0, 0.905);
     width: 100%;
-    height: 100px;
-    text-align: center;
+    height: 135px;
     position: fixed;
-    top: 0;
     z-index: 99;
+    display: block;
 }
 
-header h1 {
-    padding: 25px;
-    margin: auto;
+h1 {
+    background-color: transparent;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    position: fixed;
+    z-index: 98;
+    width: 100%;
 }
 
 
 #show {
-    width: 30px;
-    font-size: 35px;
-    padding-left: 0px;
-    color: white;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    border: none;
-    z-index: 99;
+    display: none;
 }
 
+
 menu {
-    width: 80vw;
-    height: 600px;
-    text-align: left;
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color: #4d4d4d;
-    display: none;
-    justify-content: left;
+    background-color: transparent;
+    position: none;
+    margin: auto;
+    top: none;
+    left: none;
+    z-index: 97;
+    width: 1030px;
+    height: 70px;
+    padding: 60px 0px 0px 0px;
+    display: flex;
 }
+
 
 menu > ul {
     list-style: none;
-    margin: 10px;
-    margin-left: 0px;
-    padding: 30px 0px 30px 10px;
+    margin: none;
+    display: flex;
+    padding-top: 30px;
+    padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
 }
 
-li {
-    padding-top: 15px;
-}
 
-a {
+menu > ul > li > a {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    width: 120px;
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: rgb(77, 77, 77);
+    text-decoration: none;
+}
+
+.fundo1 {
+    background-image: url(imagens/header-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
 }
 
 main {
@@ -176,7 +193,7 @@ footer {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 700px;
 }
 
 .artigohist > p {
@@ -195,7 +212,7 @@ footer {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 600px;
+    height: 700px;
 }
 
 #secao {

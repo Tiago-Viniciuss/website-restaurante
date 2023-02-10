@@ -9,4 +9,13 @@ botao.addEventListener('click', function() {
         menu.style.display = 'block';
     }
 
-})
+}
+)
+
+function mudarTamanho() {
+    if (window.innerWidth >= 1200) {
+        menu.style.display = "block"
+    } else {
+        menu.style.display = "none"
+    }
+}

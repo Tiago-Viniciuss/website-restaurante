@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Graciliano</title>
     <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 1200px)">
     <script defer src="interaçao.js"></script>
 </head>
-<body>
-    <header id="header1">
-        <div id="titulo">
+<body onresize="mudarTamanho()">
+    <header>
             <h1>
                 Restaurante Graciliano
             </h1>
-        </div>
-        <div id="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="https://online.fliphtml5.com/ngdo/fcjq/#p=1" target="_blank">Cardápio</a></li>
-                <li><a href="#">Reservas</a></li>
-                <li><a href="https://delivery.glovoapp.com/pt/" target="_blank">Delivery</a></li>
-                <li><a href="historia.html">Nossa história</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-            </ul>
-        </div>
+            <menu id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://online.fliphtml5.com/ngdo/fcjq/#p=1" target="_blank">Cardápio</a></li>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="https://delivery.glovoapp.com/pt/" target="_blank">Delivery</a></li>
+                    <li><a href="historia.html">Nossa história</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                </ul>
+            </menu>
         <button id="show">&#9776 </button> 
     </header>
+    <div class="fundo1">
+    </div>
     <main>
         <section>
             <article>

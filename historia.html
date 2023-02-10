@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Graciliano</title>
     <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="desktop.css">
     <script defer src="interaçao.js"></script>
 </head>
-<body>
-    <header id="header2">
-        <div id="titulo">
-            <h1>
-                Restaurante Graciliano
-            </h1>
-        </div>
-        <div id="menu">
+<body onresize="mudarTamanho()">
+    <header>
+        <h1>
+            Restaurante Graciliano
+        </h1>
+        <menu>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="https://online.fliphtml5.com/ngdo/fcjq/#p=1" target="_blank">Cardápio</a></li>
@@ -24,9 +23,11 @@
                 <li><a href="#">Nossa história</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
             </ul>
-        </div>
-        <button id="show">&#9776 </button> 
-    </header>
+        </menu>
+    <button id="show">&#9776 </button> 
+</header>
+<div class="fundo2">
+</div>
     <main>
         <section>
             <article>
