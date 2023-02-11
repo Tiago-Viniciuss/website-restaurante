@@ -106,11 +106,11 @@ a:hover {
 
 main {
     background-color: white;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 .container {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 30px;
     margin: auto;
     display: flex;
@@ -260,7 +260,7 @@ article > p {
 
 article > h2 {
     text-align: center;
-    padding: 20px;
+    padding: 80px;
     font-size: 2.5em;
     margin: 0px;
 }
@@ -308,6 +308,7 @@ footer {
 /*
  ESTILO DA PÁGINA 'NOSSA HISTÓRIA'
 */
+
 
 .articlehist p {
     text-indent: 45px;
@@ -401,6 +402,7 @@ footer {
 .borda3 {
     width: 100%;
     height: 900px;
+    border-radius: 0px;
 }
 
 #fundo3 {
