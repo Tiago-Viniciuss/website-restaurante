@@ -32,8 +32,9 @@ header h1 {
 
 #show {
     width: 30px;
+    font-weight: bold;
     font-size: 35px;
-    padding-left: 0px;
+    padding-left: 3px;
     color: white;
     background-color: transparent;
     position: fixed;
@@ -45,8 +46,8 @@ header h1 {
 }
 
 menu {
-    width: 80vw;
-    height: 600px;
+    width: 85vw;
+    height: 800px;
     text-align: left;
     font-weight: bold;
     padding-top: 0px;
