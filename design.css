@@ -21,6 +21,7 @@ header {
 }
 
 header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: transparent;
     padding: 25px;
@@ -464,4 +465,98 @@ footer {
 
 #img9 {
     background-image: url(imagens/galeria9.jpg);
+}
+
+/*
+    ESTILO da página "CARDÁPIO"
+*/
+
+#maincardapio {
+    padding-top: 130px;
+    width: 90vw;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.articlecardapio {
+    background-image: url(imagens/cardapio.png);
+    width: 280px;
+    height: 400px;
+    background-color: #313131;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.articlecardapio2 {
+    background-image: url(imagens/cardapio2.png);
+    width: 280px;
+    height: 400px;
+    background-color: #313131;
+    margin-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+
+/*
+    ESTILO da página 'DELIVERY'
+*/
+
+#maindelivery {
+    padding-top: 100px;
+    width: 90vw;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .5seg;
+}
+
+
+#maindelivery > h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#maindelivery > p {
+    margin: 0px;
+    padding: 10px;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.bordadelivery {
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 8px;
+
+    
+}
+
+.delivery {
+    background-image: url(imagens/delivery.jpg);
+    width: 280px;
+    height: 280px;
+    background-color: #313131;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.delivery:hover {
+    transform: scale(1.2);
 }
