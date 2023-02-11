@@ -267,7 +267,7 @@ footer {
 .containerhistoria1 {
     background-color: white;
     height: 400px;
-    width: 90vw;
+    width: 100%;
     padding-top: 60px;
     margin: auto;
     display: flex;
@@ -278,7 +278,7 @@ footer {
 .bordahist {
     overflow: hidden;
     border: 1px solid white;
-    width: 280px;
+    width: 90vw;
     height: 280px;
     border-radius: 5px;
 }
@@ -288,7 +288,7 @@ footer {
     background-image: url(imagens/barbecue.jpg);
     background-position: center;
     background-size: cover;
-    width: 280px;
+    width: 90vw;
     height: 280px;
 
     transition: all .5s;
