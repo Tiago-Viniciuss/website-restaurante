@@ -48,7 +48,7 @@ header h1 {
 
 menu {
     width: 85vw;
-    height: 800px;
+    height: 0px;
     text-align: left;
     font-weight: bold;
     padding-top: 0px;
@@ -56,8 +56,17 @@ menu {
     margin-left: 0px;
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.941);
-    display: none;
+    display: block;
     justify-content: left;
+
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 1s;
+}
+
+#menu.active {
+    visibility: visible;
+    height: 800px;
 }
 
 menu > ul {
